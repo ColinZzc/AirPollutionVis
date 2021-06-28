@@ -1,0 +1,21 @@
+{
+"name": "地点",
+"location":
+[
+  {"name":"北京", "group": "A", "log":116.3, "lat":39.9, "size": "50"},
+  {"name":"北京", "group": "B", "log":116.3, "lat":39.9, "size": "22"},
+  {"name":"北京", "group": "C", "log":116.3, "lat":"39.9", "size": "10"},
+  {"name":"北京", "group": "D", "log":116.3, "lat":"39.9", "size": "30"},
+  {"name":"北京", "group": "E", "log":116.3, "lat":"39.9", "size": "40"},
+  {"name":"上海", "group": "A", "log":121.4, "lat":"31.2", "size": "12"},
+  {"name":"上海", "group": "B", "log":121.4, "lat":"31.2", "size": "32"},
+  {"name":"上海", "group": "C", "log":121.4, "lat":"31.2", "size": "22"},
+  {"name":"上海", "group": "D", "log":121.4, "lat":"31.2", "size": "50"},
+  {"name":"上海", "group": "E", "log":121.4, "lat":"31.2", "size": "44"},
+  {"name":"深圳", "group": "A", "log":113, "lat":"22", "size": "44"},
+  {"name":"深圳", "group": "B", "log":113, "lat":"22", "size": "14"},
+  {"name":"深圳", "group": "C", "log":113, "lat":"22", "size": "24"},
+  {"name":"深圳", "group": "D", "log":113, "lat":"22", "size": "34"},
+  {"name":"深圳", "group": "E", "log":113, "lat":"22", "size": "11"}
+]
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+  <script src="https://d3js.org/d3.v4.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+  <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+  <script src="https://unpkg.com/d3-simple-slider"></script>
+
+  <title>BubbleLine</title>
+  <style>
+    .tooltip {
+      font-size: 6px;
+      width: 60;
+      height: 50;
+      position: absolute;
+      text-align: left;
+      background: #eee; /* NEW */
+      box-shadow: 0 0 5px #999999;
+
+      background-color: white;
+      border-radius: 2px;
+      padding: 5;
+    }
+    .grid {
+      stroke: rgb(182, 179, 179);
+      stroke-opacity: 0.1;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="my_dataviz"></div>
+
+  <script src="js/bubble.js"></script>
+</body>

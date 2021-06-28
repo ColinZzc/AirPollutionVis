@@ -1,0 +1,214 @@
+.div-a{ float:left;width:48%;border:0px solid #F00}
+.div-b{ float:left;width:49%;border:0px solid #000}
+.div-c{ float:right;width:45%;border:0px solid #F00}
+.div-d{ float:right;width:53%;border:0px solid #000}
+.div-g{z-index:100;}
+.div-h{width:30px;height:6px;}
+.box0{width:1200px;height:6px;border:0px solid #333;}
+.box{border:0px solid #333;display:flex}
+.boxc{width:500px;height:570px;border:0px solid #333;display:flex;z-index:100;}
+.box2{width:696px;height:80px;border:0px solid #333;}
+.box3{width:600px;height:210px;border:0px solid #333;}
+.box4{width:600px;height:300px;border:0px solid #333;}
+.box3a{width:220px;height:230px;border:0px solid #333;}
+.box3b{width:240px;height:240px;border:0px solid #333;}
+#demotext {
+color: #444444;
+text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+color: #444444;
+-webkit-box-shadow:0px 0px 25px 7px #808080 ;
+-moz-box-shadow:0px 0px 25px 7px #808080 ;
+box-shadow:0px 0px 25px 7px #808080 ;
+background: white;
+}
+.div2{ height:45px;
+            border:0px solid #19aeff;
+            text-align:left;
+            font-size:37px;
+            font-family: Arial;
+            color: #505050
+        }
+.my-iframe1>#my-iframe1{position: absolute;transform:scale(0.6);}
+
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: rgba(0, 0, 16, 0.8);
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	border-bottom: 0.1em solid rgba(0, 0, 16, 0.8);
+	color: rgba(0, 0, 16, 0.8);
+	text-decoration: none;
+}
+
+span {
+	color: rgba(0, 0, 16, 0.4);
+	font-size: 70%;
+}
+
+
+
+
+
+.card {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+-webkit-box-shadow:0px 0px 25px 7px #808080 ;
+-moz-box-shadow:0px 0px 25px 7px #808080 ;
+box-shadow:0px 0px 35px 7px #808080 ;
+	background-color: rgb(255, 255, 255);
+	padding: 0.8rem;
+	width: 5.5rem;
+}
+
+.rating-container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	padding: 1.2rem 0.4rem;
+	width: 100%;
+}
+
+.rating-text p {
+	color: rgba(0, 0, 16, 0.8);
+	font-size: 1.3rem;
+	padding: 0.3rem;
+}
+
+.rating {
+	background-color: rgb(203, 203, 203);
+	padding: 0.4rem 0.4rem 0.1rem 0.4rem;
+	border-radius: 2.2rem;
+}
+
+svg2 {
+	fill: rgb(242, 242, 242);
+	height: 3.6rem;
+	width: 3.6rem;
+	margin: 0.2rem;
+}
+
+.rating-form-2 svg {
+	height: 3rem;
+	width: 3rem;
+	margin: 0.5rem;
+}
+
+#radios label {
+	position: relative;
+}
+
+input[type="radio"] {
+	position: absolute;
+	opacity: 0;
+}
+
+input[type="radio"] + svg {
+	-webkit-transition: all 0.1s;
+	transition: all 0.1s;
+}
+
+input + svg {
+	cursor: pointer;
+}
+
+input[class="super-happy"]:hover + svg,
+input[class="super-happy"]:checked + svg,
+input[class="super-happy"]:focus + svg {
+	fill: rgb(77, 148, 255);
+}
+
+input[class="sad"]:hover + svg,
+input[class="sad"]:checked + svg,
+input[class="sad"]:focus + svg {
+	fill: rgb(253, 103, 3);
+}
+
+input[class="neutral"]:hover + svg,
+input[class="neutral"]:checked + svg,
+input[class="neutral"]:focus + svg {
+	fill: rgb(250, 234, 37);
+}
+
+input[class="happy"]:hover + svg,
+input[class="happy"]:checked + svg,
+input[class="happy"]:focus + svg {
+	fill: rgb(0, 133, 38);
+}
+
+
+input[class="sad1"]:hover + svg,
+input[class="sad1"]:checked + svg,
+input[class="sad1"]:focus + svg {
+	fill: rgb(83, 210, 128);
+}
+
+input[class="super-sad"]:hover + svg,
+input[class="super-sad"]:checked + svg,
+input[class="super-sad"]:focus + svg {
+	fill: rgb(229, 125, 122);
+}
+
+input[class="super-sad1"]:hover + svg,
+input[class="super-sad1"]:checked + svg,
+input[class="super-sad1"]:focus + svg {
+   fill: rgb(130, 126, 79);
+}
+
+.grid {
+
+  width: 1400px;
+
+  height: 850px;
+
+  background-image: linear-gradient(
+
+    45deg,
+
+    #eeeeee 25%,
+
+    transparent 25%,
+
+    transparent 75%,
+
+    #eeeeee 75%
+
+  ), linear-gradient(
+
+    45deg,
+
+    #eeeeee 25%,
+
+    transparent 25%,
+
+    transparent 75%,
+
+    #eeeeee 75%
+
+  );
+
+  background-size: 25px 25px;
+
+  background-position: 0 0, 25px 25px;
+
+}
+
+#demoObject {
+
+-webkit-box-shadow:0px 0px 50px 7px #808080 ;
+-moz-box-shadow:0px 0px 50px 7px #808080 ;
+box-shadow:0px 0px 35px 7px #808080 ;
+background: #FFFFFF
+}
+body#tinymce {
+background: #FFFFFF
+}
